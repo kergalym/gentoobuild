@@ -1,0 +1,44 @@
+=x11-libs/gtk+-3.14.9
+=x11-libs/gtk+-2.24.25
+x11-drivers/xf86-video-nouveau
+=sys-power/cpufrequtils-008-r4
+=sys-kernel/gentoo-sources-4.0.5
+# required by app-text/libetonyek-0.1.3::gentoo
+# required by app-office/libreoffice-4.3.5.2::gentoo
+# required by @selected
+# required by @world (argument)
+# /etc/portage/package.mask:
+## Freezed stuff
+#>dev-lang/php-5.5.16
+#>dev-lang/php-5.3.29
+=dev-util/mdds-0.12.1
+# required by app-office/libreoffice-5.0.0.5::ovr
+# required by =app-office/libreoffice-5.0.0.5 (argument)
+# /etc/portage/package.mask:
+#>x11-libs/cairo-1.12.18-r1
+#>x11-libs/gtk+-3.14.9
+#>dev-cpp/gtkmm-3.14.0-r1
+=app-text/libetonyek-0.1.3
+=dev-libs/libdbusmenu-qt-0.9.3_pre20140619-r1
+=dev-libs/libgcrypt-1.6.4
+# required by dev-haskell/aeson-0.9.0.1::gentoo
+# required by dev-haskell/pandoc-types-1.12.4.5::gentoo
+# required by dev-haskell/texmath-0.8.2.2::gentoo
+# required by app-text/pandoc-1.15.0.6::gentoo
+# required by @selected
+# required by @world (argument)
+# /etc/portage/package.mask:
+=dev-haskell/attoparsec-0.13.0.1
+# required by media-gfx/makehuman-1.0.2::ovr[blender]
+# required by @selected
+# required by @world (argument)
+# /etc/portage/package.mask:
+## Freezed stuff
+#>dev-lang/php-5.5.16
+#>dev-lang/php-5.3.29
+#>app-admin/eselect-opengl-1.2.7
+#>x11-proto/glproto-1.4.17
+#>media-libs/mesa-10.3.5
+#>x11-base/xorg-server-1.16.4
+=media-gfx/blender-2.72b-r3
+=kde-frameworks/oxygen-icons-4.14.3

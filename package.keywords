@@ -1,0 +1,25 @@
+=net-print/foo2zjs-99999999 **
+=x11-misc/primus-9999 **
+=media-sound/oss-9999 **
+=app-emulation/wine-1.7.26 **
+=app-emulation/wine-1.7.24 **
+net-im/myagent-im **
+# required by plasma-globalmenu (argument)
+=kde-misc/plasma-globalmenu-9999 **
+# required by kde-misc/plasma-globalmenu-9999::ovr
+# required by plasma-globalmenu (argument)
+=gnome-extra/gnome-globalmenu-9999 **
+=media-plugins/deadbeef-qt-9999 **
+#=sys-apps/portage-9999 **
+=media-libs/mesa-10.4.0 **
+=app-text/libwps-0.4.0 **
+=app-office/libreoffice-5.0.0.5 **
+
+# required by =app-emulation/wine-1.7.49::ovr (argument)
+=app-emulation/wine-1.7.49 **
+=app-admin/anaconda-9999 **
+=sys-libs/glibc-2.21 **
+# required by =app-emulation/wine-9999::gentoo (argument)
+#=app-emulation/wine-9999 **
+# required by =media-libs/mesa-9999 (argument)
+#=media-libs/mesa-9999 **
